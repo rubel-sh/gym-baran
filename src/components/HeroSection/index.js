@@ -24,7 +24,7 @@ const HeroSection = () => {
             Healthy in side <span className="text-primaryColor">fresh</span> out
             side
           </h1>
-          <p>
+          <p className="opacity-50 py-6">
             Exercise is a very important need for our body. Health and fitness
             will be obtained if you can do regular exercise and run a healthy
             routine.
@@ -45,7 +45,7 @@ const HeroSection = () => {
           </div>
         </div>
         {/* Right Contnets */}
-        <Image src={bannerImg} />
+        <Image src={bannerImg} className="bg-black" />
       </div>
     </Container>
   );

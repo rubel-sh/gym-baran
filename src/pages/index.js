@@ -9,6 +9,7 @@ import HowItWorks from "@/components/HowItWorks";
 import OurPrograms from "@/components/OurPrograms";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
+import Stacks from "@/components/Stacks";
 
 export default function Home() {
   return (
@@ -28,15 +29,17 @@ export default function Home() {
       </Head>
       <main>
         <Header />
-        <HeroSection />
-        <HealthyInside />
-        <DailyChallenges />
-        <FullBodyWorkout />
-        <DailyMorningWorkout />
-        <HowItWorks />
-        <OurPrograms />
-        <Testimonials />
-        <Footer />
+        <Stacks>
+          <HeroSection />
+          <HealthyInside />
+          <DailyChallenges />
+          <FullBodyWorkout />
+          <DailyMorningWorkout />
+          <HowItWorks />
+          <OurPrograms />
+          <Testimonials />
+          <Footer />
+        </Stacks>
       </main>
     </>
   );
