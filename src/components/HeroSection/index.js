@@ -45,7 +45,7 @@ const HeroSection = () => {
           </div>
         </div>
         {/* Right Contnets */}
-        <Image src={bannerImg} className="bg-black" />
+        <Image src={bannerImg} />
       </div>
     </Container>
   );

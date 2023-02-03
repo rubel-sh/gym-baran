@@ -1,5 +1,9 @@
 const Container = ({ children }) => {
-  return <div className="max-w-[1238px] mx-auto px-8 md:px-0">{children}</div>;
+  return (
+    <section className="max-w-[1238px] mx-auto px-8 md:px-0">
+      {children}
+    </section>
+  );
 };
 
 export default Container;
