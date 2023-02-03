@@ -12,3 +12,7 @@
   font-weight: 700;
   src: url(../assets/fonts/SportingGrotesque-Bold.otf) format("otf");
 }
+
+body {
+  background-color: #e5e5e5;
+}
