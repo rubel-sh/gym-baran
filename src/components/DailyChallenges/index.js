@@ -2,6 +2,8 @@ import Image from "next/image";
 import Container from "../Container";
 import rightArrow from "../../assets/icons/rightArrow.svg";
 import crucifiedpose from "../../assets/icons/crucified-pose.png";
+import dancerPose from "../../assets/icons/dancer-balance-posture-on-one-leg.png";
+import dancerMotion from "../../assets/icons/dancer-motion.png";
 const DailyChallenges = () => {
   return (
     <Container>
@@ -9,7 +11,7 @@ const DailyChallenges = () => {
         <div className="grid md:grid-cols-3 gap-x-20">
           <div className="flex gap-8">
             {/* image */}
-            <div className="p-8 bg-white/20 grid place-items-center rounded-xl">
+            <div className="p-5 bg-white/20 grid place-items-center rounded-xl">
               <Image src={crucifiedpose} />
             </div>
             {/* Texts & btn */}
@@ -24,8 +26,8 @@ const DailyChallenges = () => {
           </div>
           <div className="flex gap-8">
             {/* image */}
-            <div className="p-8 bg-white/20 grid place-items-center rounded-xl">
-              <Image src={crucifiedpose} />
+            <div className="p-5 bg-white/20 grid place-items-center rounded-xl">
+              <Image src={dancerPose} />
             </div>
             {/* Texts & btn */}
             <div className="flex flex-col justify-between">
@@ -39,8 +41,8 @@ const DailyChallenges = () => {
           </div>
           <div className="flex gap-8">
             {/* image */}
-            <div className="p-8 bg-white/20 grid place-items-center rounded-xl">
-              <Image src={crucifiedpose} />
+            <div className="p-5 bg-white/20 grid place-items-center rounded-xl">
+              <Image src={dancerMotion} />
             </div>
             {/* Texts & btn */}
             <div className="flex flex-col justify-between">
