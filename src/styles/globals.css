@@ -16,3 +16,8 @@
 body {
   background-color: #e5e5e5;
 }
+
+.font-sporting {
+  font-family: Sporting, sans-serif;
+  font-weight: 400;
+}
