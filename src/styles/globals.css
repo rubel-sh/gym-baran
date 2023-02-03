@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Sporting";
+  font-weight: 400;
+  src: url(../assets/fonts/SportingGrotesque-Regular.otf) format("otf");
+}
+@font-face {
+  font-family: "Sporting";
+  font-weight: 700;
+  src: url(../assets/fonts/SportingGrotesque-Bold.otf) format("otf");
+}
