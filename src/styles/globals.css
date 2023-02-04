@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Sporting";
+  font-family: "SportingGrotesque";
   font-weight: 400;
-  src: url(../assets/fonts/SportingGrotesque-Regular.otf) format("otf");
+  src: url(../assets/fonts/SportingGrotesque-Regular.woff2) format("woff2");
 }
 @font-face {
-  font-family: "Sporting";
+  font-family: "SportingGrotesque";
   font-weight: 700;
-  src: url(../assets/fonts/SportingGrotesque-Bold.otf) format("otf");
+  src: url(../assets/fonts/SportingGrotesque-Bold.woff2) format("woff2");
 }
 
 body {
@@ -18,6 +18,11 @@ body {
 }
 
 .sporting {
-  font-family: Sporting, sans-serif;
+  font-family: SportingGrotesque, sans-serif;
   font-weight: 400;
+}
+
+.sporting-bold {
+  font-family: SportingGrotesque, sans-serif;
+  font-weight: 700;
 }

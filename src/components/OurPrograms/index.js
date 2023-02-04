@@ -11,8 +11,8 @@ const OurPrograms = () => {
   return (
     <Container>
       <div className="text-primaryText">
-        <h1 className="sporting text text-5xl text-center leading-[73px]">
-          Programs that can <br /> be taken
+        <h1 className="font-poppins text text-2xl lg:text-5xl sporting-bold text-center md:leading-[73px]">
+          Programs that can be taken
         </h1>
         {/* Card Containers */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-14 gap-16">

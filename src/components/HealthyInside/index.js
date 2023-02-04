@@ -3,8 +3,8 @@ import Container from "../Container";
 const HealthyInside = () => {
   return (
     <Container>
-      <div className="grid md:grid-cols-12 gap-5 font-poppins">
-        <h2 className="md:col-span-5 text-5xl">
+      <div className="grid md:grid-cols-12 gap-5 font-poppins leading-6">
+        <h2 className="md:col-span-5 text-2xl lg:text-5xl sporting-bold">
           Healthy in side fresh out side
         </h2>
         <p className="opacity-50 md:col-span-6 ">

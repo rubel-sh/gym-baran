@@ -8,25 +8,27 @@ const HowItWorks = () => {
     <Container>
       <div className="grid md:grid-cols-2 text-primaryText">
         {/* Left Content */}
-        <div className="self-start">
+        <div className="self-start order-2 md:order-1 mt-16 md:mt-0">
           <Image src={how_it_works} />
         </div>
 
         {/* Right Content */}
-        <div className="grid place-items-center">
+        <div className="grid place-items-center order-1 md:order-2">
           <div>
-            <h1 className="font-sporting text-5xl">
-              Best full body workout to lose fat
+            <h1 className="font-sporting  mb-8 text-2xl lg:text-5xl sporting-bold">
+              How it works?
             </h1>
-            <p className="font-poppins opacity-50 my-12">
-              Exercise is a very important need for our body. Health and fitness
-              will be obtained if you can do regular exercise and run a healthy
-              routine. Even at home we still have to be diligent in exercising,
-              either alone or with your friends at home.{" "}
-            </p>
-            <button className="py-4 px-6 flex justify-between items-center rounded-lg bg-secondaryColor text-white gap-7 cursor-pointer shadow-2xl">
-              <span>Get Started</span> <Image src={rightArrow} alt="" />
-            </button>
+            <div className="font-poppins flex flex-col gap-4">
+              <div className="bg-white rounded-lg shadow-2xl shadow-[#334e7b4d] text-primaryText text-lg px-9 py-8">
+                <h1>The body becomes sick because of rarely exercise</h1>
+              </div>
+              <div className="bg-white/50 rounded-lg shadow-sm text-primaryText/50 text-lg px-9 py-8">
+                <h1>Don't give up in order to get a healthy and ideal body</h1>
+              </div>
+              <div className="bg-white/50 rounded-lg shadow-sm text-primaryText/50 text-lg px-9 py-8">
+                <h1>Become addicted to the exercise that is given</h1>
+              </div>
+            </div>
           </div>
         </div>
       </div>

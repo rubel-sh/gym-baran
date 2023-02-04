@@ -7,14 +7,14 @@ const Footer = () => {
   return (
     <div className="bg-secondaryColor relative overflow-hidden">
       <Container>
-        <div className="py-9 md:py-32 flex justify-between relative isolate">
+        <div className="py-9 md:py-32 flex justify-between flex-col md:flex-row gap-14 md:gap-0 relative isolate">
           <Image src={waves} className="absolute -top-5 -left-28 -z-10" />
           {/* company descriptions */}
           <div>
             {/* Logo */}
             <div>
               <a href="#">
-                <h1 className="text-lg font-bold text-white font-sporting cursor-pointer">
+                <h1 className="text-xl font-bold text-white sporting cursor-pointer">
                   <span className="bg-white rounded-lg py-1 px-2 mr-1 text-primaryColor">
                     Gym
                   </span>{" "}
@@ -22,7 +22,7 @@ const Footer = () => {
                 </h1>
               </a>
             </div>
-            <p className="my-7 text-white/50 max-w-[333px]">
+            <p className="my-7 text-white/50 max-w-[333px] text-lg">
               We take care of your health with regular and fun exercise
             </p>
             {/* Socials */}
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
 
           {/* Important Links */}
-          <div className="flex  gap-32">
+          <div className="flex gap-7 lg:gap-32 flex-col md:flex-row">
             {/* Program Links */}
             <div>
               <p className="sporting text-[#F0F6FF] font-bold">Program</p>

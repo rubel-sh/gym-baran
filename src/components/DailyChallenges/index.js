@@ -7,8 +7,8 @@ import dancerMotion from "../../assets/icons/dancer-motion.png";
 const DailyChallenges = () => {
   return (
     <Container>
-      <div className="bg-gradient-to-r from-[#6462F0] to-[#9190E9] rounded-2xl p-20">
-        <div className="grid md:grid-cols-3 gap-x-20">
+      <div className="bg-gradient-to-r from-[#6462F0] to-[#9190E9] rounded-2xl p-8 md:p-20">
+        <div className="grid md:grid-cols-3 gap-x-20 gap-y-12">
           <div className="flex gap-8">
             {/* image */}
             <div className="p-5 bg-white/20 grid place-items-center rounded-xl">

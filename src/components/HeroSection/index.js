@@ -20,18 +20,18 @@ const HeroSection = () => {
       <div className="grid md:grid-cols-2 mt-[170px] font-poppins text-primaryText">
         {/* Left Contents */}
         <div>
-          <h1 className="text-[56px] font-sporting font-bold">
+          <h1 className="text-[28px] text-2xl lg:text-5xl sporting-bold">
             Healthy in side <span className="text-primaryColor">fresh</span> out
             side
           </h1>
-          <p className="opacity-50 py-6">
+          <p className="opacity-50 py-6 font-poppins">
             Exercise is a very important need for our body. Health and fitness
             will be obtained if you can do regular exercise and run a healthy
             routine.
           </p>
           {/* Btn Groups */}
-          <div className="flex gap-8 mt-5">
-            <button className="py-4 px-6 flex justify-between items-center rounded-lg bg-secondaryColor text-white gap-7 cursor-pointer shadow-2xl">
+          <div className="flex gap-8 mt-5 text-[12px] md:text-[base]">
+            <button className="py-[14px] md:py-4 px-[18px] md:px-6 flex justify-between items-center rounded-lg bg-secondaryColor text-white gap-1 md:gap-7 cursor-pointer shadow-2xl">
               <span>Get Started</span> <Image src={right} alt="" />
             </button>
             <button className="py-4 px-6 flex justify-between items-center rounded-lg bg-white text-secondaryColor gap-7 cursor-pointer shadow-2xl">
@@ -45,7 +45,7 @@ const HeroSection = () => {
           </div>
         </div>
         {/* Right Contnets */}
-        <Image src={bannerImg} />
+        <Image src={bannerImg} className="mt-5 md:mt-0" />
       </div>
     </Container>
   );

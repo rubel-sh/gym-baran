@@ -8,14 +8,14 @@ const FullBodyWorkout = () => {
     <Container>
       <div className="grid md:grid-cols-2 text-primaryText">
         {/* Left Content */}
-        <div className="self-start">
+        <div className="self-start order-2 md:order-1 mt-16 md:mt-0">
           <Image src={workout} />
         </div>
 
         {/* Right Content */}
-        <div className="grid place-items-center">
+        <div className="grid place-items-center order-1 md:order-2 ">
           <div>
-            <h1 className="font-sporting text-5xl">
+            <h1 className="text-2xl lg:text-5xl sporting-bold">
               Best full body workout to lose fat
             </h1>
             <p className="font-poppins opacity-50 my-12">

@@ -10,8 +10,8 @@ const DailyMorningWorkout = () => {
         {/* Left Content */}
         <div className="grid place-items-center">
           <div>
-            <h1 className="font-sporting text-5xl">
-              Best full body workout to lose fat
+            <h1 className="text-2xl lg:text-5xl sporting-bold">
+              Daily morning workout in home
             </h1>
             <p className="font-poppins opacity-50 my-12">
               Exercise is a very important need for our body. Health and fitness
@@ -25,7 +25,7 @@ const DailyMorningWorkout = () => {
           </div>
         </div>
         {/* Right Content */}
-        <div className="self-start">
+        <div className="self-start mt-16 md:mt-0">
           <Image src={morning_workout} />
         </div>
       </div>

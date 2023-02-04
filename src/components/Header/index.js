@@ -8,7 +8,7 @@ const Header = () => {
           {/* Logo */}
           <div>
             <a href="#">
-              <h1 className="text-lg font-bold text-primaryColor font-sporting cursor-pointer">
+              <h1 className="text-lg font-bold text-primaryColor sporting cursor-pointer">
                 <span className="bg-primaryColor rounded-lg py-1 px-2 mr-1 text-white">
                   Gym
                 </span>{" "}

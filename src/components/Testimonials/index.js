@@ -6,11 +6,11 @@ const Testimonials = () => {
   return (
     <Container>
       <div className="text-primaryText relative">
-        <h1 className="sporting text text-5xl text-center leading-[73px]">
+        <h1 className="sporting text-2xl lg:text-5xl sporting-bold text-center leading-[73px]">
           Testimonials
         </h1>
         {/* Card Containers */}
-        <div className="grid grid-cols-1 md:grid-cols-2  mt-14 gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-2  mt-14 gap-6 lg:gap-16">
           {/* Single testimonial */}
           <div className="px-11 py-10 bg-white rounded-2xl ">
             <div className="flex items-start">
@@ -51,7 +51,7 @@ const Testimonials = () => {
           </div>
         </div>
         {/* dots */}
-        <div className="flex gap-1 absolute -bottom-10 right-0">
+        <div className="flex gap-1 absolute -bottom-10 border right-1/2 translate-x-1/2 lg:translate-x-0 m lg:right-0 ">
           <div className="w-[5px] h-[5px] bg-primaryText/60 rounded-full"></div>
           <div className="w-[5px] h-[5px] bg-primaryText/60 rounded-full"></div>
           <div className="w-[5px] h-[5px] bg-primaryText/60 rounded-full"></div>
