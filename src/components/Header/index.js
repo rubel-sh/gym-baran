@@ -1,10 +1,14 @@
 import Container from "../Container";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { useState } from "react";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div className="absolute w-full top-0 left-0">
+    <div className="relative bg-white lg:bg-transparent lg:absolute w-full top-0 left-0">
       <Container>
-        <div className="flex justify-between items-center py-12">
+        <div className="flex justify-between items-center py-8 lg:py-12">
           {/* Logo */}
           <div>
             <a href="#">
@@ -17,7 +21,11 @@ const Header = () => {
             </a>
           </div>
 
-          <ul className="flex items-center gap-11 font-poppins">
+          <ul
+            className={`${
+              isOpen ? "flex" : "hidden"
+            } lg:flex flex-col lg:flex-row absolute lg:static left-0 py-10 lg:py-0 -mt-5 lg:mt-0 z-10 top-28 w-full lg:w-auto bg-white lg:bg-transparent items-center gap-11 font-poppins`}
+          >
             <li>
               <a href="#">Home</a>
             </li>
@@ -39,6 +47,10 @@ const Header = () => {
               </a>
             </li>
           </ul>
+          {/* Mobile nav */}
+          <div className="ml-auto block lg:hidden cursor-pointer">
+            <RxHamburgerMenu size={28} onClick={() => setIsOpen(!isOpen)} />
+          </div>
         </div>
       </Container>
     </div>

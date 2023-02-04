@@ -9,7 +9,6 @@ console.log(bigCircle);
 const HeroSection = () => {
   return (
     <Container>
-      {/* <img src={bigCircle} alt="" className="absolute w-full h-full" /> */}
       {/* Blur bg image */}
       <Image
         src={bigCircle}
@@ -17,7 +16,7 @@ const HeroSection = () => {
       ></Image>
 
       {/* Hero Contents */}
-      <div className="grid md:grid-cols-2 mt-[170px] font-poppins text-primaryText">
+      <div className="grid md:grid-cols-2 mt-14 md:mt-36 lg:mt-[170px] font-poppins text-primaryText">
         {/* Left Contents */}
         <div>
           <h1 className="text-[28px] text-2xl lg:text-5xl sporting-bold">
